@@ -27,7 +27,18 @@ const PostUpdate = () => {
   }
   return(
     <>
-    <h1>Edit Post Form</h1>
+     <div className="min-h-screen flex items-center justify-center bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
+        <div className="max-w-md w-full space-y-8">
+             <img
+              src="https://i.imgur.com/ZnXPhEq.jpg"
+							alt="only pages open book logo"
+              className="rounded-full h-20 w-20 mx-auto ring-4 ring-blue hover:opacity-75"
+            />
+            
+            <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900">
+            Edit Post Form
+            </h2>
+            <p className="mt-2 text-center text-sm text-gray-600"></p>
     <form onSubmit={handleSubmit}
     className="mt-8 space-y-6"
     >
@@ -69,6 +80,8 @@ const PostUpdate = () => {
         <button className="group relative w-full flex justify-center py-2 border border-transparent text-sm font-medium rounded-md text-white bg-blue-700 hover:bg-blue-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 my-2">Cancel</button>
         {/* </div> */}
     </form>
+    </div>
+    </div>
     </>
   )
 } 
