@@ -40,7 +40,7 @@ class Search extends Component {
             placeholder="Search..."
             className="bg-purple-white shadow rounded border border-indigo-600  border-2 p-2 hover:text-white"
           />
-          <button
+       <button
             type="submit"
             disabled={this.state.invalidForm}
             /* className="group relative inline-block px-6 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-blue-700 hover:bg-blue-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 my-2" */
